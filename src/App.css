@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.app-title{
+  color: #0ccac4;
+  margin: 5rem 0;
+  font-size: 10rem;
+  font-family: 'Bigelow Rules', cursive;
+  line-height: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+ body{
+  font-size: 1.2rem;
+ }
+
+ .app-title{
+  font-size: 7rem;
+ }
+}

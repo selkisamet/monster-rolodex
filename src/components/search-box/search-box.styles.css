@@ -1,0 +1,21 @@
+.container{
+  max-width: 120rem;
+  width: 100%;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+.search-box {
+    border: none;
+    outline: none;
+    padding: 2rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .search-box {
+      width: 100%;
+    }
+  }

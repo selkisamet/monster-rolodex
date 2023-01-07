@@ -1,0 +1,35 @@
+.card-list {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+  padding: 0 4rem;
+  position: relative;
+}
+
+.notify {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 3rem;
+  background-color: firebrick;
+  position: absolute;
+  display: none;
+}
+
+.notify-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .notify{
+    font-size: 1.8rem;
+  }
+}
